@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "949065273820",
+    "project_id": "interioz",
+    "storage_bucket": "interioz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949065273820:android:98de79e6371aea37f5ff19",
+        "android_client_info": {
+          "package_name": "com.example.application1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949065273820-n31ak2qer6kan1e6vpfmr5ekm6tfi1r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZPYuz2xd07IQcwCNyj7-2wUC8kRyUuR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949065273820-n31ak2qer6kan1e6vpfmr5ekm6tfi1r0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

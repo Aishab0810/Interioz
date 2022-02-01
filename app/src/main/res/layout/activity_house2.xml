@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".housed1">
+
+    <ImageView
+        android:id="@+id/hdd2"
+        android:layout_width="1500dp"
+        android:layout_height="4000dp"
+        android:src="@drawable/l2"
+        android:layout_marginTop="-300dp"/>
+
+    <TextView
+        android:id="@+id/hdt11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pinacle Home Decor"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:background="@color/teal_200"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/hdt12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Certified Interior Designers deliver creative solutions to any room in your house. With an eye for innovation and style, we are committed to quality and excellence with every project we undertake."
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="400dp"/>
+
+    <Button
+        android:id="@+id/htb11"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="630dp"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/htb12"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="630dp"
+        android:text="Buy Now"
+        android:textColor="@color/black"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:layout_marginLeft="240dp"/>
+
+</RelativeLayout>

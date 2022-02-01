@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hotel1">
+
+    <ImageView
+        android:id="@+id/ho1"
+        android:layout_width="1500dp"
+        android:layout_height="800dp"
+        android:src="@drawable/h1"
+        android:layout_marginTop="-150dp"/>
+
+    <TextView
+        android:id="@+id/ho2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luxury Hotel Decor"
+        android:textSize="37dp"
+        android:textStyle="italic"
+        android:background="@color/teal_200"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/ho3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Certified Interior Designers deliver creative solutions to any size of your office. With an eye for innovation and style, we are committed to quality and excellence with every project we undertake."
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="530dp"/>
+
+    <Button
+        android:id="@+id/hob1"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="630dp"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/hob2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="630dp"
+        android:text="Buy Now"
+        android:textColor="@color/black"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:layout_marginLeft="240dp"/>
+
+</RelativeLayout>

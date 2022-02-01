@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".office2">
+
+    <ImageView
+        android:id="@+id/odd22"
+        android:layout_width="1000dp"
+        android:layout_height="700dp"
+        android:src="@drawable/o2"
+        android:layout_marginTop="-80dp"/>
+
+    <TextView
+        android:id="@+id/odt112"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minimalist Office Decor"
+        android:textSize="37dp"
+        android:textStyle="italic"
+        android:background="@color/teal_200"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/odt122"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Certified Interior Designers deliver creative solutions to any size of your office. With an eye for innovation and style, we are committed to quality and excellence with every project we undertake."
+        android:textSize="19dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="530dp"/>
+
+    <Button
+        android:id="@+id/odb11"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="640dp"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/odb12"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="640dp"
+        android:text="Buy Now"
+        android:textColor="@color/black"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:layout_marginLeft="240dp"/>
+
+</RelativeLayout>

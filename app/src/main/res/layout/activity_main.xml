@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p1"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/progressbar"/>
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColor="@color/white"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:hint="Email"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:background="@color/browser_actions_divider_color"
+        android:text="Login"
+        android:textColor="@color/teal_200"
+        android:textAllCaps="false"
+        android:textSize="30dp" />
+
+
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="180dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="180dp"
+        android:text="New Here? Register"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

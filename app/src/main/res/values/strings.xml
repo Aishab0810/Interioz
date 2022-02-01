@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Application1</string>
+    <string name="email_error">email_error</string>
+    <string name="error_invalid_email">error_invalid_email</string>
+    <string name="password_error">password_error</string>
+    <string name="error_invalid_password">error_invalid_password</string>
+</resources>
