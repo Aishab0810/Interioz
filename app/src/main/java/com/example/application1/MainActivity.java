@@ -38,7 +38,7 @@ import java.util.Objects;
 public class MainActivity extends AppCompatActivity {
     //Create object of DatabaseReference class to access firebase's realtime database
     DatabaseReference databaseReference= FirebaseDatabase.getInstance().getReferenceFromUrl("https://interioz-default-rtdb.firebaseio.com/1");
-
+//initialize the variables
     EditText t1, t2, t3;
     Button b1;
     TextView t4,t5;
@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void Login() {
+        //assign the values to variables
        final EditText t1 = (EditText) findViewById(R.id.t1);
        final EditText t2 = (EditText) findViewById(R.id.t2);
        final EditText t3 = (EditText) findViewById(R.id.t3);
@@ -87,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 //                if (!t1.getText().toString().isEmpty()) {
 //                    if (t1.getText().toString().length() >= 0) {
-//                        int index = t1.getText().toString().indexOf("sai");
+//                        int index = t1.getText().toString().indexOf(" ");
 //                        t1.setText(String.valueOf(index));
 //                    }
 //                } else {

@@ -10,8 +10,8 @@
         android:id="@+id/odd2"
         android:layout_width="1500dp"
         android:layout_height="800dp"
-        android:src="@drawable/o1"
-        android:layout_marginTop="-150dp"/>
+        android:layout_marginTop="-150dp"
+        android:src="@drawable/o1" />
 
     <TextView
         android:id="@+id/odt11"

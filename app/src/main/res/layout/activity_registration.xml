@@ -12,7 +12,8 @@
         android:id="@+id/r1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="User"
+        android:hint="User Name"
+        android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:textSize="25dp"/>
 
@@ -22,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:hint="Email"
+        android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:textSize="25dp"/>
 
@@ -32,6 +34,7 @@
         android:layout_marginTop="160dp"
         android:inputType="textPassword"
         android:hint="Password"
+        android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:textSize="25dp"/>
 
@@ -42,6 +45,7 @@
         android:layout_marginTop="240dp"
         android:inputType="textPassword"
         android:hint="Confirm Password"
+        android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:textSize="25dp"/>
 
@@ -51,6 +55,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="300dp"
         android:text="Register"
+        android:textStyle="bold"
+        android:textColor="@color/purple_200"
         android:background="@color/browser_actions_divider_color"
         android:textAllCaps="false"
         android:textSize="30dp"/>

@@ -25,6 +25,7 @@ public class Registration extends AppCompatActivity {
 
     //Create object of DatabaseReference class to access firebase's realtime database
     DatabaseReference databaseReference=FirebaseDatabase.getInstance().getReferenceFromUrl("https://interioz-default-rtdb.firebaseio.com/1");
+    //Initilalize the variables
     EditText r1,r2,r3,r4;
     Button rb2;
     ProgressBar progressBar;
@@ -42,6 +43,7 @@ public class Registration extends AppCompatActivity {
     }
 
     void Registration() {
+                    //assign values to the variables
        final EditText r1=(EditText)findViewById(R.id.r1);
        final EditText r2=(EditText)findViewById(R.id.r2);
        final EditText r3=(EditText)findViewById(R.id.r3);

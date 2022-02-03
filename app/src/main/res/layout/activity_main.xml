@@ -19,6 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Name"
+        android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:textSize="25dp"/>
 
@@ -29,6 +30,7 @@
         android:layout_marginTop="80dp"
         android:inputType="textPassword"
         android:hint="Password"
+        android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:textSize="25dp"/>
 
@@ -39,6 +41,7 @@
         android:layout_marginTop="160dp"
         android:hint="Email"
         android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:textSize="25dp" />
 
     <Button
